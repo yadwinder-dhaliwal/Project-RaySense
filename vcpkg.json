@@ -1,0 +1,14 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "name": "raysense",
+  "version": "0.1.0",
+  "description": "GPU-accelerated LiDAR and camera sensor simulator",
+  "dependencies": [
+    "glfw3",
+    "glm",
+    {
+      "name": "imgui",
+      "features": [ "glfw-binding", "vulkan-binding" ]
+    }
+  ]
+}

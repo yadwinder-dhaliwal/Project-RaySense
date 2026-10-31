@@ -1,0 +1,3 @@
+add_executable(test_lidar_pattern test_lidar_pattern.cpp)
+target_link_libraries(test_lidar_pattern PRIVATE raysense_core raysense_warnings)
+add_test(NAME lidar_pattern COMMAND test_lidar_pattern)

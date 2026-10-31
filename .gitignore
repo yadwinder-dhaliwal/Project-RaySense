@@ -1,0 +1,20 @@
+# Build output
+build/
+out/
+vcpkg_installed/
+
+# Editor / tooling
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.cache/
+compile_commands.json
+*.swp
+
+# Compiled shaders
+*.spv
+
+# Captures and large local assets
+*.rdc
+*.nsight-gfxproj
+scenes/local/
